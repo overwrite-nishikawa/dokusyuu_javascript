@@ -1,0 +1,28 @@
+p.37
+1.①大文字と小文字　②半角文字　③空白 ④/* */
+2.263
+3.val3のVが大文字になっているから。
+4.let val3 = 789 % 3;でval3の定義をしていたが処理を止めたことでval3の定義がされていない状態になったから。
+５.0
+
+p.48
+1.let(変数)は値を変更することができるがconst(定数)は値を変更することが出来ない
+2.const(定数)は、再代入できないがこのエラーではfruit = appleの後にfruit = bananaとfruitの値を代入し直しているため。
+
+p.52
+let productPrice = 1000;
+let cartItem = "りんご";
+let favoriteSportCategory = "球技";
+
+p.80
+1.①値　②let ③const ④
+
+3-3Number('文字列')のように文字列を数値で返せない場合にNaNが返される。
+例　Number('Hello);
+
+4.①空　②開発者　③未定義
+5.
+// ドット技法
+console.log(counter.num);
+// ブランケット技法
+console.log(counter['num']);　
